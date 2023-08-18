@@ -3,7 +3,7 @@ CREATE TABLE t_cliente (
     nm_cliente VARCHAR(100) NOT NULL,
     ds_cpf_cliente VARCHAR(20) NOT NULL,
     ds_email_cliente VARCHAR(100) NOT NULL,
-    ds_sexo_cliente CHAR(1) NOT NULL,
+    sg_genero_cliente CHAR(1) NOT NULL,
     ds_endereco_cliente VARCHAR(100) NOT NULL,
     PRIMARY KEY (cd_cliente)
 );
