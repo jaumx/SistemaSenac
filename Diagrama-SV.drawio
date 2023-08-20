@@ -1,9 +1,58 @@
-<mxfile host="app.diagrams.net" modified="2023-08-20T18:14:43.748Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" version="21.6.8" etag="VM0t5awJFMgBHBs1S1aO" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-20T18:57:18.048Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="1HxcHfq9kFdVUfk4qgBe" version="21.6.8" type="github">
   <diagram name="Página-1" id="Qzn0qPf9PI4gwN_pM8Xa">
-    <mxGraphModel>
+    <mxGraphModel dx="1179" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="mcggorZkaUmIbYxfzcQU-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mcggorZkaUmIbYxfzcQU-1" target="mcggorZkaUmIbYxfzcQU-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mcggorZkaUmIbYxfzcQU-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Cliente&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;cdCliente: int&lt;/li&gt;&lt;li&gt;nome: String&lt;/li&gt;&lt;li&gt;cpf: String&lt;/li&gt;&lt;li&gt;email: String&lt;/li&gt;&lt;li&gt;genero: char&lt;/li&gt;&lt;li&gt;endereco: String&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;criarCliente()&lt;/li&gt;&lt;li&gt;lerCliente(int)&lt;/li&gt;&lt;li&gt;atualizarCliente()&lt;/li&gt;&lt;li&gt;excluirCliente()&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="280" y="160" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="mcggorZkaUmIbYxfzcQU-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mcggorZkaUmIbYxfzcQU-3" target="mcggorZkaUmIbYxfzcQU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mcggorZkaUmIbYxfzcQU-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Funcionario&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;cdFuncionario:int&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;nome: String&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;cargo: String&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;cpf: String&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;rg: String&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;nascimento: Date&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;cadastro: Date&lt;/li&gt;&lt;li&gt;genero: char&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;criarFuncionario()&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;lerFuncionario(int)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;lerProduto(int)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;atualizarFuncionario()&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;excluirFuncionario()&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="55" y="320" width="170" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="mcggorZkaUmIbYxfzcQU-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.6;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="mcggorZkaUmIbYxfzcQU-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="439" y="500" as="sourcePoint" />
+            <mxPoint x="250" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="500" />
+              <mxPoint x="420" y="730" />
+              <mxPoint x="628" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mcggorZkaUmIbYxfzcQU-10" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mcggorZkaUmIbYxfzcQU-9">
+          <mxGeometry x="-0.4509" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mcggorZkaUmIbYxfzcQU-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Produto&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;cdProduto: int&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;nome: String&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;descricao: String&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;preco: BigDecimal&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;ativo: char&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;fabricante: String&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;grupo: String&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;estoque: int&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;criarProduto()&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;lerProduto(int)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;atualizarProduto()&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;excluirProduto()&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="170" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="mcggorZkaUmIbYxfzcQU-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="mcggorZkaUmIbYxfzcQU-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="760" as="sourcePoint" />
+            <mxPoint x="460" y="915" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="380" y="760" />
+              <mxPoint x="380" y="915" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mcggorZkaUmIbYxfzcQU-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Compra&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;cdCompra: int&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;cdFuncionario: int (Funcionario)&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;cdCliente: int (Cliente)&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;dataHora: Date&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;observacao: String&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;desconto: BigDecimal&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;frete: BigDecimal&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;criarCompra()&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;lerCompra(int)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;atualizarCompra()&amp;nbsp;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;excluirCompra()&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="640" width="290" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="mcggorZkaUmIbYxfzcQU-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ProdutoVendido&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;cdProduto: int (Produto)&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;cdFuncionario: int (Funcionario)&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;quantidade: int&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;criaProdutoVendido()&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;lerProdutoVendido(int,int)&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;atualizarProduto()&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;excluirProdutoVendido()&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="490" y="830" width="230" height="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
