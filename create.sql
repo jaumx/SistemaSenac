@@ -1,5 +1,5 @@
 CREATE TABLE t_cliente (
-    cd_cliente INT NOT NULL,
+    cd_cliente INT auto_increment NOT NULL,
     nm_cliente VARCHAR(100) NOT NULL,
     ds_cpf_cliente VARCHAR(20) NOT NULL,
     ds_email_cliente VARCHAR(100) NOT NULL,
@@ -8,8 +8,21 @@ CREATE TABLE t_cliente (
     PRIMARY KEY (cd_cliente)
 );
 
+CREATE TABLE t_funcionario (
+    cd_funcionario INT auto_increment NOT NULL,
+    nm_funcionario VARCHAR(100) NOT NULL,
+    ds_cargo_funcionario VARCHAR(100) NOT NULL,
+    ds_cpf_funcionario VARCHAR(14) NOT NULL,
+    ds_rg_funcionario VARCHAR(20) NOT NULL,
+    dt_nascimento DATE NOT NULL,
+    dt_cadastro DATE NOT NULL,
+    sg_genero_funcionario CHAR(1) NOT NULL,
+    PRIMARY KEY (cd_funcionario)
+);
+
+
 CREATE TABLE t_compra (
-    cd_compra INT NOT NULL,
+    cd_compra INT auto_increment NOT NULL,
     t_funcionario_cd_funcionario INT NOT NULL,
     t_cliente_cd_cliente INT NOT NULL,
     dt_hora_compra DATETIME NOT NULL,
@@ -21,20 +34,9 @@ CREATE TABLE t_compra (
     FOREIGN KEY (t_cliente_cd_cliente) REFERENCES t_cliente(cd_cliente)
 );
 
-CREATE TABLE t_funcionario (
-    cd_funcionario INT NOT NULL,
-    nm_funcionario VARCHAR(100) NOT NULL,
-    ds_cargo_funcionario VARCHAR(100) NOT NULL,
-    ds_cpf_funcionario VARCHAR(14) NOT NULL,
-    ds_rg_funcionario VARCHAR(20) NOT NULL,
-    dt_nascimento DATE NOT NULL,
-    dt_cadastro DATE NOT NULL,
-    sg_genero_funcionario CHAR(1) NOT NULL,
-    PRIMARY KEY (cd_funcionario)
-);
 
 CREATE TABLE t_produto (
-    cd_produto INT NOT NULL,
+    cd_produto INT auto_increment NOT NULL,
     nm_produto VARCHAR(100) NOT NULL,
     ds_produto VARCHAR(300) NOT NULL,
     vl_preco DECIMAL(9, 2) NOT NULL,
@@ -46,7 +48,7 @@ CREATE TABLE t_produto (
 );
 
 CREATE TABLE t_produto_vendido (
-    t_produto_cd_produto INT NOT NULL,
+    t_produto_cd_produto INT auto_increment NOT NULL,
     t_compra_cd_compra INT NOT NULL,
     ds_quantidade INT,
     PRIMARY KEY (t_compra_cd_compra, t_produto_cd_produto),
